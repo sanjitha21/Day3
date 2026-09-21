@@ -1,12 +1,8 @@
 # Sets in Python
-# A set is an unordered collection of unique elements.
-# It does not allow duplicate values, and it is mutable.
 
-# Creating a set
 numbers = {1, 2, 2, 3, 4, 4, 5}
 print("Set with duplicates removed:", numbers)
 
-# Adding and removing items
 fruits = {"apple", "banana", "mango"}
 fruits.add("orange")
 print("After add:", fruits)
@@ -14,7 +10,7 @@ print("After add:", fruits)
 fruits.remove("banana")
 print("After remove:", fruits)
 
-# Membership test
+
 print("Is 'apple' in fruits?", "apple" in fruits)
 
 # Set operations
@@ -30,5 +26,4 @@ my_list = [1, 2, 2, 3, 4, 4, 5]
 unique_list = set(my_list)
 print("List converted to set:", unique_list)
 
-# Example summary
-print("Sets are useful when you need unique values or fast membership checks.")
+
