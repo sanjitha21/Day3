@@ -12,8 +12,6 @@ print(student["marks"][0])
 print(student["subjects"][2])
 
 #dict of tuple
-# dict of tuple
-
 student = {
     "name": ("Alice", "Bob", "Charlie"),
     "marks": (90, 85, 88),
@@ -27,7 +25,6 @@ print(student["marks"][0])
 print(student["subjects"][2])
 
 #dict of dict
-# dict of dict
 
 student = {
     "student1": {
